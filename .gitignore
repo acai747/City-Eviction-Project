@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# dbt
+dbt/target/
+dbt/logs/
+
+# Airflow
+airflow/logs/
+
+# OS
+.DS_Store
+EOF
+
+# Notes
+*.docx
